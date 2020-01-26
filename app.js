@@ -7,7 +7,6 @@ const Intern = require("./lib/Intern");
 const html = require("./templates/generateHTML");
 
 const writeFileAsync = util.promisify(fs.writeFile);
-const appendFileAsync = util.promisify(fs.appendFile);
 
 let teamArray = [];
 let teamstr = ``;

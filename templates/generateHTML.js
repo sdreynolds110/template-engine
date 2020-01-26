@@ -35,16 +35,18 @@ const generateHTML = function(teamstr) {
         }
         .card-header{
              margin: 10%;
+             color: white;
         }
         .card-body{
              margin: 5%;
+             color: white;
         }
         </style>
       </head>
     
       <body>
         <div class=header>
-            <h1>And the Lineup is...</h1>
+            <h1>Here's Your Team!</h1>
         </div>
         <div class="container-body">
            ${teamstr} 
